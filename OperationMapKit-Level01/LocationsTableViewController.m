@@ -7,6 +7,9 @@
     [super viewDidLoad];
     self.locations = @[@{@"name": @"Taco Cantina", @"phoneNumber": @"407-555-3019", @"lat": @28.5464, @"lng": @-81.3844},
                        @{@"name": @"Lou's", @"phoneNumber": @"407-555-1212", @"lat": @28.5336, @"lng": @-81.3735}];
+    //kmav added: to bypass issue that locCell is not connected to a storyboard
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"locCell"];
+
     
 
 }
