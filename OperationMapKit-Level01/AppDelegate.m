@@ -41,7 +41,10 @@
 
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+    //kmav added start:
+    LocationsTableViewController *locTVC = [[LocationsTableViewController alloc] init];
+    self.window.rootViewController = locTVC;
+    //kmav added start:
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
