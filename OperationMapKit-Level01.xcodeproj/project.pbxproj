@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8428BDF21AE43EFC0012238A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8428BDF11AE43EFC0012238A /* MapKit.framework */; };
 		8428BDF41AE43F0B0012238A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8428BDF31AE43F0B0012238A /* CoreLocation.framework */; };
+		845E45691B0AC13000E3627C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E45681B0AC13000E3627C /* MainStoryboard.storyboard */; };
 		AB24185E1762D70800D60F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB24185D1762D70800D60F3F /* UIKit.framework */; };
 		AB2418601762D70800D60F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB24185F1762D70800D60F3F /* Foundation.framework */; };
 		AB2418621762D70800D60F3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2418611762D70800D60F3F /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8428BDF11AE43EFC0012238A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8428BDF31AE43F0B0012238A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		845E45681B0AC13000E3627C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AB2418591762D70800D60F3F /* OperationMapKit-Level01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OperationMapKit-Level01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB24185D1762D70800D60F3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB24185F1762D70800D60F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +96,7 @@
 				AB2418641762D70800D60F3F /* Supporting Files */,
 				AB24187A1762D85C00D60F3F /* LocationsTableViewController.h */,
 				AB24187B1762D85C00D60F3F /* LocationsTableViewController.m */,
+				845E45681B0AC13000E3627C /* MainStoryboard.storyboard */,
 			);
 			path = "OperationMapKit-Level01";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2418681762D70800D60F3F /* InfoPlist.strings in Resources */,
+				845E45691B0AC13000E3627C /* MainStoryboard.storyboard in Resources */,
 				AB2418701762D70800D60F3F /* Default.png in Resources */,
 				AB2418721762D70800D60F3F /* Default@2x.png in Resources */,
 				AB2418741762D70800D60F3F /* Default-568h@2x.png in Resources */,
