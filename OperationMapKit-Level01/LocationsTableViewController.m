@@ -23,11 +23,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"locCell" forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"locCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+    /*
     if(!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"locCell"];
     }
+     */
     
     cell.textLabel.text = self.locations[indexPath.row][@"name"];
     cell.detailTextLabel.text = self.locations[indexPath.row][@"phoneNumber"];
